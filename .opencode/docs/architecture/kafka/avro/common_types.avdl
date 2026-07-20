@@ -1,0 +1,7 @@
+@namespace("example.the-project.avro")
+protocol CommonTypes {
+  record Recipient {
+    string email;
+    string role = "member";
+  }
+}

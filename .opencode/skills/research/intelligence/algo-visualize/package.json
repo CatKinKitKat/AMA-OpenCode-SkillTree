@@ -1,0 +1,29 @@
+{
+  "name": "the agent-algo-visualize",
+  "version": "1.0.0",
+  "description": "the coding agent skill for generating interactive single-file HTML pages for data structure and algorithm visualization",
+  "author": "L0dyv",
+  "license": "MIT",
+  "homepage": "https://github.com/L0dyv/the agent-algo-visualize#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/L0dyv/the agent-algo-visualize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/L0dyv/the agent-algo-visualize/issues"
+  },
+  "keywords": [
+    "the agent-code-skill",
+    "visualization",
+    "algorithm",
+    "data-structure",
+    "interactive",
+    "education"
+  ],
+  "files": [
+    "SKILL.md",
+    "assets/",
+    "references/",
+    "images/"
+  ]
+}

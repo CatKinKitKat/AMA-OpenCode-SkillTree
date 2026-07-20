@@ -1,0 +1,13 @@
+@namespace("example.the-project.avro")
+import "common_types.avdl";
+protocol ListEvents {
+  enum ListEventType { CREATED, UPDATED, DELETED }
+
+  record ListEvent {
+    string listId;
+    string tenantId;
+    ListEventType type;
+    array<Recipient> recipients = [];
+    long eventTime;
+  }
+}

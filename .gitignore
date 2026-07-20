@@ -1,0 +1,31 @@
+# OpenCode / project
+.opencode/cache/
+.opencode/sessions/
+.opencode/logs/
+
+# Dependencies (if any tooling is added later)
+node_modules/
+package-lock.json
+bun.lock
+pnpm-lock.yaml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Editor
+.idea/
+.vscode/
+*.swp
+
+# Temporary / generated working files (keep the repo clean)
+nul
+NUL
+*.tmp
